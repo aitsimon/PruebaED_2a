@@ -17,12 +17,12 @@ class PersonaTest {
 
 	@Test
 	void testPersona() {
+		
 	}
 
 	@Test
 	void testPersonaStringStringString() {
-		Persona p3=new Persona("87654321X","Persona","Per");
-		assertEquals("Per",p3.getApellido1());
+		fail("Not yet implemented");
 	}
 
 	@Test
