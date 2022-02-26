@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PersonaTest" project="PracticaBloque2" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest" time="0.038" displayname="PersonaTest" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest]">
+    <testcase name="testPersona" classname="com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest" time="0.021" displayname="testPersona()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest]/[method:testPersona()]"/>
+    <testcase name="testSetApellido1" classname="com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest" time="0.005" displayname="testSetApellido1()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest]/[method:testSetApellido1()]"/>
+    <testcase name="testPersonaStringStringString" classname="com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest" time="0.001" displayname="testPersonaStringStringString()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest]/[method:testPersonaStringStringString()]"/>
+    <testcase name="testSetNombre" classname="com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest" time="0.002" displayname="testSetNombre()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest]/[method:testSetNombre()]"/>
+    <testcase name="testGetNombre" classname="com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest" time="0.001" displayname="testGetNombre()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest]/[method:testGetNombre()]"/>
+    <testcase name="testGetDni" classname="com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest" time="0.0" displayname="testGetDni()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest]/[method:testGetDni()]"/>
+    <testcase name="testSetDni" classname="com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest" time="0.002" displayname="testSetDni()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest]/[method:testSetDni()]"/>
+    <testcase name="testGetApellido1" classname="com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest" time="0.0" displayname="testGetApellido1()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.PersonaTest]/[method:testGetApellido1()]"/>
+  </testsuite>
+</testrun>
