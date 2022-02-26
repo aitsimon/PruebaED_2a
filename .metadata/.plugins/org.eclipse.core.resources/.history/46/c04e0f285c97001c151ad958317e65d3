@@ -39,11 +39,11 @@ class PersonaTest {
 	void testSetDni() {
 		
 		//Test con dni valido
-		String nuevoDni="12345678D";
+		String nuevoDni="124A";
 		boolean haPasado=false;
 		try {
 			p.setDni(nuevoDni);
-			assertEquals(nuevoDni,p.getDni());
+			assertEquals("124A",p.getDni());
 		} catch (Exception e) {
 			haPasado=true;
 		}

@@ -39,7 +39,7 @@ class PersonaTest {
 	void testSetDni() {
 		
 		//Test con dni valido
-		String nuevoDni="12345678D";
+		String nuevoDni="87654321C";
 		boolean haPasado=false;
 		try {
 			p.setDni(nuevoDni);

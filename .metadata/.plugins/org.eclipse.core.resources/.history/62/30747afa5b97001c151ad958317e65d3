@@ -30,7 +30,7 @@ public class Persona{
 	 * */
 	public void setDni(String dni) throws Exception {
 		//comprobacion de si el ultimo caracter es una letra
-		if(Character.isLetter(dni.charAt(dni.length()-1))) {
+		if(Character.isLetter(dni.charAt(dni.length()))) {
 			this.dni=dni;
 		}else {
 			throw new Exception("El ultimo caracter introducido no es una letra");
