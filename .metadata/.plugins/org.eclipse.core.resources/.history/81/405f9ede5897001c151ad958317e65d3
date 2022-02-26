@@ -1,0 +1,82 @@
+package com.iescomercio.ed.bloque2.repaso.modelo;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class PersonaTest {
+	Persona p;
+	@BeforeEach
+	void setUp() {
+		p = new Persona("12345678A","Aitor","Simon");
+	}
+
+	@Test
+	void testPersona() {
+		
+	}
+
+	@Test
+	void testPersonaStringStringString() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetDni() {
+		AssertEquals("12345678A",p.getDni());
+	}
+
+	private void AssertEquals(String string, String dni) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Test
+	void testSetDni() {
+		
+		//Test con dni valido
+		String nuevoDni="12345677B";
+		boolean haPasado=false;
+		try {
+			p.setDni("12345677B");
+			assertEquals("12345677B",p.getDni());
+		} catch (Exception e) {
+			haPasado=true;
+		}
+		assertFalse(haPasado);
+		//Test con dni invalido
+		Persona p2= new Persona("12345678C","Alberto","Martinez");
+		String nuevoDniSinLetra="123456789";
+		boolean haPasado2=false;
+		try {
+			p2.setDni(nuevoDniSinLetra);
+		}catch(Exception e){
+			haPasado2=true;
+		}
+		assertTrue(haPasado2);
+	}
+
+	@Test
+	void testGetNombre() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetNombre() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetApellido1() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetApellido1() {
+		fail("Not yet implemented");
+	}
+}

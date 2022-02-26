@@ -1,0 +1,68 @@
+package com.iescomercio.ed.bloque2.repaso.modelo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class PersonaTest {
+	
+	@BeforeAll
+	
+	
+	
+	@Test
+	public void testHashCode() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testPersona() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testPersonaStringStringString() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetDni() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetDni() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetNombre() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetNombre() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetApellido1() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetApellido1() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testEqualsObject() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testToString() {
+		fail("Not yet implemented");
+	}
+
+}
