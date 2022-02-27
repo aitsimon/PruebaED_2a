@@ -27,6 +27,11 @@ class CursoTest {
 		c.aniadirAlumno(p1);
 		c.aniadirAlumno(p2);
 	}
+
+	@AfterEach
+	void tearDown() throws Exception {
+	}
+
 	@Test
 	void testEliminarAlumno() {
 		fail("Not yet implemented");
@@ -42,7 +47,7 @@ class CursoTest {
 
 	@Test
 	void testEstaRegistrado() {
-		assertTrue(c.estaRegistrado("12345678Z"));
+		fail("Not yet implemented");
 	}
 
 	@Test

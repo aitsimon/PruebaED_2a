@@ -42,7 +42,7 @@ class CursoTest {
 
 	@Test
 	void testEstaRegistrado() {
-		assertTrue(c.estaRegistrado("12345678Z"));
+		fail("Not yet implemented");
 	}
 
 	@Test
