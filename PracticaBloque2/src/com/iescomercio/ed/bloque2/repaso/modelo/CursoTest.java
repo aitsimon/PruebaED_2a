@@ -29,7 +29,21 @@ class CursoTest {
 	}
 	@Test
 	void testEliminarAlumno() {
-		fail("Not yet implemented");
+		//test con una longitud de dni adecuada
+		boolean haPasado=false;
+		try {
+			c.eliminarAlumno("12345678A");
+			assertEquals(1, c.numeroAlumnos());
+		} catch (Exception e) {
+			haPasado=true;
+		}
+		assertFalse(haPasado);
+		//test con una longitud de dni inadecuada
+		Persona p4= new Persona("123G","Jorge","Jimenez");
+		c.aniadirAlumno(p4);
+		Exception e=assertThrows
+				(Exception.class, ()->c.eliminarAlumno("El dni no tiene la longitud adecuada"));
+		assertEquals("El dni no tiene la longitud adecuada", e.getMessage());
 	}
 
 	@Test

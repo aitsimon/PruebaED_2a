@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CursoTest" project="PracticaBloque2" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.iescomercio.ed.bloque2.repaso.modelo.CursoTest" time="0.025" displayname="CursoTest" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.CursoTest]">
+    <testcase name="testCurso" classname="com.iescomercio.ed.bloque2.repaso.modelo.CursoTest" time="0.017" displayname="testCurso()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.CursoTest]/[method:testCurso()]"/>
+    <testcase name="testEstaRegistrado" classname="com.iescomercio.ed.bloque2.repaso.modelo.CursoTest" time="0.002" displayname="testEstaRegistrado()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.CursoTest]/[method:testEstaRegistrado()]"/>
+    <testcase name="testEliminarAlumno" classname="com.iescomercio.ed.bloque2.repaso.modelo.CursoTest" time="0.001" displayname="testEliminarAlumno()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.CursoTest]/[method:testEliminarAlumno()]"/>
+    <testcase name="testAniadirAlumno" classname="com.iescomercio.ed.bloque2.repaso.modelo.CursoTest" time="0.002" displayname="testAniadirAlumno()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.CursoTest]/[method:testAniadirAlumno()]"/>
+    <testcase name="testNumeroAlumnos" classname="com.iescomercio.ed.bloque2.repaso.modelo.CursoTest" time="0.001" displayname="testNumeroAlumnos()" uniqueid="[engine:junit-jupiter]/[class:com.iescomercio.ed.bloque2.repaso.modelo.CursoTest]/[method:testNumeroAlumnos()]"/>
+  </testsuite>
+</testrun>
