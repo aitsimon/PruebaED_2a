@@ -53,8 +53,8 @@ public class Curso {
 	 * introducira un dni de la clase Persona por parametro. Si esta persona esta
 	 * matriculada devolvera "true", sino lo esta devolvera "false"
 	 * 
-	 * @param dni Dni de la Persona que se quiere comprobar si esta registrada
-	 * @return true/false en caso de si la persona esta o no registrada en el Curso.
+	 * @param dni
+	 * @return
 	 */
 	public Boolean estaRegistrado(String dni) {
 		int i = 0;
@@ -68,19 +68,15 @@ public class Curso {
 		return encontrado;
 	}
 
-	/**
-	 * Constructor de la clase Curso. Incializa el ArrayList donde se almacenan los
-	 * objetos de la clase Persona que componen el Curso. Sin parametros
+	/*
+	 * Documentar y crear test unitario
 	 */
 	public Curso() {
 		listaAlumnos = new ArrayList<Persona>();
 	}
 
-	/**
-	 * Metodo que devuelve un entero que muestra la cantidad de alumnos del curso.
-	 * 
-	 * 
-	 * @return Devuelve un Integer que refleja la cantidad de Personas en la listaAlumnos
+	/*
+	 * Documentar y crear test unitario
 	 */
 	public Integer numeroAlumnos() {
 		return listaAlumnos.size();

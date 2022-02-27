@@ -76,11 +76,8 @@ public class Curso {
 		listaAlumnos = new ArrayList<Persona>();
 	}
 
-	/**
-	 * Metodo que devuelve un entero que muestra la cantidad de alumnos del curso.
-	 * 
-	 * 
-	 * @return Devuelve un Integer que refleja la cantidad de Personas en la listaAlumnos
+	/*
+	 * Documentar y crear test unitario
 	 */
 	public Integer numeroAlumnos() {
 		return listaAlumnos.size();
